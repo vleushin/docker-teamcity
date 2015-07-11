@@ -11,4 +11,4 @@ EXPOSE  8111
 
 ENV TEAMCITY_DATA_PATH /var/lib/teamcity
 
-ENTRYPOINT /opt/TeamCity/bin/runAll.sh start && sleep 10 && tail -f /opt/TeamCity/logs/teamcity-server.log
+ENTRYPOINT /opt/TeamCity/bin/runAll.sh start && sleep 20 && tail -f /opt/TeamCity/logs/teamcity-server.log
