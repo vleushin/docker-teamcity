@@ -1,6 +1,6 @@
 FROM java:8
 
-ENV TEAMCITY_VERSION 9.1.5
+ENV TEAMCITY_VERSION 9.1.6
 
 RUN curl http://download-ln.jetbrains.com/teamcity/TeamCity-$TEAMCITY_VERSION.tar.gz | tar -xz -C /opt
 
